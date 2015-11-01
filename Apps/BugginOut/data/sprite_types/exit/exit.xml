@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+ <width>32</width>
+ <height>32</height>
+ <images_list>
+  <image_file id="0" file_name="exit00.png"/>
+  <image_file id="1" file_name="exit01.png"/>
+  <image_file id="2" file_name="exit02.png"/>
+  <image_file id="3" file_name="exit03.png"/>
+  <image_file id="4" file_name="exit04.png"/>
+  <image_file id="5" file_name="exit05.png"/>
+ </images_list>
+ <animations_list>
+  <animation_state>
+   <state>IDLE</state>
+   <animation_sequence>
+    <pose image_id="0" duration="4"/>
+    <pose image_id="1" duration="4"/>
+    <pose image_id="2" duration="4"/>
+    <pose image_id="3" duration="4"/>
+    <pose image_id="4" duration="4"/>
+    <pose image_id="5" duration="4"/>
+   </animation_sequence>
+  </animation_state>
+ </animations_list>  
+</sprite_type>

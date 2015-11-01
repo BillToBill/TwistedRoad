@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EE1AD5D7-7744-4D8E-A6F5-9453E59F1385}</ProjectGuid>
+    <RootNamespace>LuaPlus</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaAutoBlock.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaCall.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaFunction.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaHelper.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaHelper_Object.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaHelper_StackObject.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaLink.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaObject.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaPlus.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaPlusCD.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaPlusInternal.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaStackObject.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaStackTableIterator.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaState.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaStateCD.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaStateOutFile.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaTableIterator.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lapi.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lauxlib.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lcode.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\ldebug.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\ldo.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lfunc.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lgc.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\llex.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\llimits.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lmem.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lobject.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lopcodes.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lparser.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lstate.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lstring.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\ltable.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\ltm.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lua.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\luaconf.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lualib.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lundump.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lvm.h" />
+    <ClInclude Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lzio.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaCall.inl" />
+    <None Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaObject.inl" />
+    <None Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaStackObject.inl" />
+    <None Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaStackTableIterator.inl" />
+    <None Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaState.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaObject.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaPlus.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaPlusAddons.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaPlus_Libs.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaState.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaStateOutFile.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaState_DumpObject.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaTableIterator.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\lwstrlib.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\popen.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lapi.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lauxlib.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lbaselib.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lcode.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\ldblib.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\ldebug.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\ldo.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\ldump.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lfunc.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lgc.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\linit.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\liolib.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\llex.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lmathlib.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lmem.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\loadlib.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lobject.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lopcodes.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\loslib.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lparser.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lstate.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lstring.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lstrlib.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\ltable.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\ltablib.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\ltm.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lundump.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lvm.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\lzio.c" />
+    <ClCompile Include="..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\src\print.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,24 @@
+﻿Build started 10/28/2015 9:59:33 PM.
+     1>Project "C:\Users\Billy\Desktop\TwistedPath\LuaPlus\LuaPlus.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaObject.cpp" "..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaPlus.cpp" "..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaPlus_Libs.cpp" "..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaState.cpp" "..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaStateOutFile.cpp" "..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaState_DumpObject.cpp" "..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaTableIterator.cpp"
+         LuaTableIterator.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaTableIterator.cpp': No such file or directory
+         LuaState_DumpObject.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaState_DumpObject.cpp': No such file or directory
+         LuaStateOutFile.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaStateOutFile.cpp': No such file or directory
+         LuaState.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaState.cpp': No such file or directory
+         LuaPlus_Libs.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaPlus_Libs.cpp': No such file or directory
+         LuaPlus.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaPlus.cpp': No such file or directory
+         LuaObject.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\Desktop\LuaStuff\luaplus51-all\Src\LuaPlus\LuaObject.cpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Billy\Desktop\TwistedPath\LuaPlus\LuaPlus.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.03

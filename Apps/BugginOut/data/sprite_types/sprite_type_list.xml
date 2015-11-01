@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type_list>
+  <sprite_type>PChar</sprite_type>
+  <sprite_type>block_none</sprite_type>
+  <sprite_type>block_left</sprite_type>
+  <sprite_type>block_right</sprite_type>
+  <sprite_type>block_horizontal_double</sprite_type>
+  <sprite_type>block_up</sprite_type>
+  <sprite_type>block_down</sprite_type>
+  <sprite_type>block_vertical_double</sprite_type>
+  <sprite_type>exit</sprite_type>
+  <sprite_type>Flyer</sprite_type>
+  <sprite_type>Walker</sprite_type>
+  <sprite_type>RWalker</sprite_type>
+  <sprite_type>LWalker</sprite_type>
+  <sprite_type>UWalker</sprite_type>
+</sprite_type_list>
